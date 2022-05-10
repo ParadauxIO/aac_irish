@@ -1,13 +1,13 @@
-# aac_irish
+# aac_irish_local
 
-This project combines ABAIR's Irish language voices with a trio of parsers (tts_corrector.py):
-    1) An Gramadóir's grammar checker (an_gramadoir.py)
-    2) ABAIR's genitive parser (genitive_parser.py)
-    3) my own morphological parser based on AAC boards (morphological_parser.py)
-    to create a self-correcting Irish language TTS API for use in AAC devices. 
-This project also uses the voices developed at ABAIR (abair_voice.py).
+This project is an attempt to bring [aac_irish](https://github.com/OisinThomasMorrin/aac_irish) locally, a process which
+will include the following feats:
 
-Three pages are available from the flask server (flask_aac_irish.py):
-1) Get voice of choice where the inputted text has been corrected. @ /
-2) Get correction of text alone.    @ /corrector
-3) Get hand-tuned parameterised hts voice. @ /voice
+- Rewriting the python project into a Systems Language (i.e. [Rust](https://www.rust-lang.org/)) for local use.
+- Locally packaging [ABAIR](https://www.tcd.ie/research/start/abair.php)'s voices using the HTS speech synthesis system. 
+- Transpiling third-party scripts and parsers into Rust. 
+
+The end-goal is to create a [coughdrop](https://www.coughdrop.com/)) plugin from the locally packaged artifacts for deployment
+and use by non-verbal individuals wishing to communicate through Irish.  
+
+This project is being done for the [Phonetics and Speech Laboratory](https://www.tcd.ie/slscs/clcs/psl/) in Trinity College, Dublin. Room 4084
