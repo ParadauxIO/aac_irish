@@ -6,4 +6,14 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# Used to parse JSON
+serde_json = "1"
+
+# Used as a web server, akin to Flask
 actix-web = "4"
+
+# USed to make HTTP Requests, similar to Requests
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+
+# Asyncroneous code framework.
+tokio = { version = "1", features = ["full"] }
