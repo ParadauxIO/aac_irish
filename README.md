@@ -10,4 +10,4 @@ will include the following feats:
 The end-goal is to create a [coughdrop](https://www.coughdrop.com/)) plugin from the locally packaged artifacts for deployment
 and use by non-verbal individuals wishing to communicate through Irish.  
 
-This project is being done for the [Phonetics and Speech Laboratory](https://www.tcd.ie/slscs/clcs/psl/) in Trinity College, Dublin. Room 4084
+This project is being done for the [Phonetics and Speech Laboratory](https://www.tcd.ie/slscs/clcs/psl/) in Trinity College, Dublin.
